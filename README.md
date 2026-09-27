@@ -29,14 +29,14 @@ Manual inspection during property turnover is slow, inconsistent, and error-pron
 4. `paint defect`
 5. `uneven joint`
 
----
+
 
 ## 3. Results Summary & Key Metrics
 
 | Model Stage | Precision | Recall | mAP@50 | mAP@50-95 |
 | :--- | :---: | :---: | :---: | :---: |
 | **Baseline (Zero-Shot YOLO11n)** | 0.000 | 0.000 | 0.000 | 0.000 |
-| **Fine-Tuned YOLO11n (50 Epochs)** | *[Add P]* | *[Add R]* | *[Add mAP50]* | *[Add mAP50-95]* |
+| **Fine-Tuned YOLO11n (50 Epochs)** | 0.0080 | 1.0000 | 0.0684 | 0.0350 |
 
 ### Key Takeaways
 1. **Domain Adaptation:** Off-the-shelf YOLO11 fails on site turnover defects without custom fine-tuning.
